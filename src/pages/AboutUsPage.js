@@ -13,136 +13,140 @@ const AboutUsPage = (props)=>{
 <section>
         <h1>TEAM ALCHEMY</h1>
     <p>Our Team prides itself on delivering <span>CREATIVITY, QUALITY &amp; PARTNERSHIP!</span></p>
-        <p>We pride ourselves on helping customers achieve outstanding projects because</p>
-        <span>“WE GIVE A SHIT!</span>
+        <p>We pride ourselves on helping customers achieve outstanding projects because
+        <br/><span>“WE GIVE A SHIT!"</span></p>
 </section>           
 
 <div className="team-carousel">
-                <Carousel className="carousel-dark slide" interval="100000">
+                <Carousel className="carousel-dark slide " data-bs-ride="carousel" interval={100000000}>
                     <Carousel.Item>
-                    <div className=" d-flex w-100 ">
+                    <div className=" d-flex w-100  px-2">
                       <img
-                        className=" image d-flex mb-2 w-50"
+                        className=" image d-flex  w-50"
                         src="images\about\ani2.png"
-                        alt="vivid 2"
+                        alt="Anita"
                         />
-                        <div className='text-team justify-content-center align-self-center w-40'>
-                        <h4 className='name'>ANITA MARTIN TORRES</h4>
-                        <h5 className='position'>Production Designer</h5>
-                        <p className='description p-1 '>Multi-talented &amp; innovative in creating design solutions that look amazing-despite all sorts of jobs to deal with.</p>
+                        <div className='d-block w-100 '>
+                            <div className='text-team w-75 mt-3'>
+                                <h4 className='name'>ANITA MARTIN TORRES</h4>
+                                <h5 className='position  mb-0'>Production Designer</h5>
+                                <p className='description mb-0 '>Multi-talented &amp; innovative in creating design solutions that look amazing-despite all sorts of jobs to deal with.</p>
+                            </div>
                         </div>
-{/*                        <Carousel.Caption  className='text-team  w-75'>
-                        <h3 className='name'>ANITA MARTIN TORRES</h3>
-                        <h4 className='position'>Production Designer</h4>
-                        <p className='description'>Multi-talented &amp; innovative in creating design solutions that look amazing-despite all sorts of jobs to deal with.</p>
-                        </Carousel.Caption> */}
-
-                     
                     </div>
                     </Carousel.Item>
 
                     <Carousel.Item>
-                    <div className=" d-block w-60 ">
+                    <div className=" d-flex w-100 px-2 ">
                         <img
-                        className=" d-block  w-50"
+                        className=" image d-flex  w-50"
                         src="images\about\BEC2.png"
-                        alt="vivid 2"
+                        alt="Bec"
                         />
-                        <Carousel.Caption className='text-team  w-75'>
-                        <h3 >Bec Ianna</h3>
-                        <h4>PROJECT MANAGER</h4>
-                        <p>THEY CONVERT A CONCEPT INTO A REALITY THAT CAN BE BUILT ON TIME & ON BUDGET. WITH OVER 20 YEARS OF COMBINED INDUSTRY EXPERIENCE, THEY DELIVER-CONSISTENTLY!</p>
-                        </Carousel.Caption>
+                        <div className='d-block w-=100'>
+                            <div className='text-team w-75 mt-3'>
+                                <h4 className='name'>Bec Ianna</h4>
+                                <h5 className='position  mb-0'>PROJECT MANAGER</h5>
+                                <p className='description mb-0 '>THEY CONVERT A CONCEPT INTO A REALITY THAT CAN BE BUILT ON TIME & ON BUDGET. WITH OVER 20 YEARS OF COMBINED INDUSTRY EXPERIENCE, THEY DELIVER-CONSISTENTLY!</p>
+                            </div>
+                        </div>
                     </div>
                     </Carousel.Item>
 
                     <Carousel.Item>
-                    <div className=" d-block w-60 ">
+                    <div className=" d-flex w-100 px-2">
                         <img
-                        className=" d-block w-50"
+                        className="image d-flex w-50"
                         src="images\about\CHARLY3.png"
                         alt="vivid 2"
                         />
-                        <Carousel.Caption className='text-team  w-75'>
-                        <h3 >Charly Mcdonald</h3>
-                        <h4>LOGISTIC SUPERVISOR</h4>
-                        <p>YEARS OF EXPERIENCE INSTALLING A RANGE OF DIFFERENT PROJECTS IN ALL TYPES OF LOCATIONS-WITH CONSISTENT CUSTOMER SATISFACTION AND QUALITY.</p>
-                        </Carousel.Caption>
+                         <div className='d-block w-=100'>
+                            <div className='text-team w-75 mt-3'>
+                                <h4 className='name'>Charly Mcdonald</h4>
+                                <h5 className='position  mb-0'>LOGISTIC SUPERVISOR</h5>
+                                <p className='description mb-0 '>YEARS OF EXPERIENCE INSTALLING A RANGE OF DIFFERENT PROJECTS IN ALL TYPES OF LOCATIONS-WITH CONSISTENT CUSTOMER SATISFACTION AND QUALITY.</p>
+                            </div>
+                        </div>
                     </div>
                     </Carousel.Item>
 
                     <Carousel.Item>
-                    <div className=" d-block w-60 ">
+                    <div className=" d-flex  ps-2 w-100  ">
                         <img
-                        className=" d-block x w-50"
+                        className="image d-flex w-50"
                         src="images\about\Diego2-1.png"
                         alt="vivid 2"
                         />
-                        <Carousel.Caption className='text-team  w-75'>
-                        <h3 >DIEGO CARTELLE</h3>
-                        <h4>GRAPHICS MANAGER</h4>
-                        <p>YEARS OF EXPERIENCE INSTALLING A RANGE OF DIFFERENT PROJECTS IN ALL TYPES OF LOCATIONS-WITH CONSISTENT CUSTOMER SATISFACTION AND QUALITY.</p>
-                        </Carousel.Caption>
+                    <div className='d-block w-=100'>
+                            <div className='text-team w-75 mt-3'>
+                                <h4 className='name'>DIEGO CARTELLE</h4>
+                                <h5 className='position  mb-0'>GRAPHICS MANAGER</h5>
+                                <p className='description mb-0 '>Multi-talented & innovative in creating print solutions that look amazing-despite all sorts of applications to deal with.</p>
+                            </div>
+                    </div>
+
                     </div>
                     </Carousel.Item>
 
                     <Carousel.Item>
-                    <div className=" d-block w-60 ">
+                    <div className=" d-flex  ps-2 w-100  ">
                         <img
-                        className=" d-block w-50"
+                        className="image d-flex w-50"
                         src="images\about\jaime2.png"
                         alt="vivid 2"
                         />
-                        <Carousel.Caption className='text-team  w-75'>
-                        <h3 >Jaime Merchan</h3>
-                        <h4>PROJECT MANAGER</h4>
-                        <p>THEY CONVERT A CONCEPT INTO A REALITY THAT CAN BE BUILT ON TIME & ON BUDGET. WITH OVER 20 YEARS OF COMBINED INDUSTRY EXPERIENCE, THEY DELIVER-CONSISTENTLY!</p>
-                        </Carousel.Caption>
+                        <div className='text-team w-75 mt-3 px-2 me-5'>
+                                <h4 className='name'>Jaime Merchan</h4>
+                                <h5 className='position  mb-0'>PROJECT MANAGER</h5>
+                                <p className='description mb-0 '>THEY CONVERT A CONCEPT INTO A REALITY THAT CAN BE BUILT ON TIME & ON BUDGET. WITH OVER 20 YEARS OF COMBINED INDUSTRY EXPERIENCE, THEY DELIVER-CONSISTENTLY!</p>
+                        </div>
+
                     </div>
                     </Carousel.Item>
 
                     <Carousel.Item>
-                    <div className=" d-block w-60 ">
+                    <div className=" d-flex ps-2 w-100  ">
                         <img
-                        className=" d-block x w-50"
+                        className="image d-flex w-50"
                         src="images\about\JC1.png"
                         alt="vivid 2"
                         />
-                        <Carousel.Caption className='text-team  w-75'>
-                        <h3 >John Chellingworth</h3>
-                        <h4>CFO</h4>
-                        <p>FORMER CEO THAT ENSURES THAT CASH FLOW IS MANAGED &amp; SYSTEMS DELIVER PROFITS.</p>
-                        </Carousel.Caption>
+                    <div className='text-team w-75 mt-3 px-2 me-5'>
+                                <h4 className='name'>John Chellingworth</h4>
+                                <h5 className='position  mb-0'>CFO</h5>
+                                <p className='description mb-0 '>FORMER CEO THAT ENSURES THAT CASH FLOW IS MANAGED &amp; SYSTEMS DELIVER PROFITS.</p>
+                    </div>
                     </div>
                     </Carousel.Item>
 
                     <Carousel.Item>
-                    <div className=" d-block w-60 ">
+                    <div className=" d-flex  ps-2 w-100  ">
                         <img
-                        className=" d-block w-50"
+                        className="image d-flex w-50"
                         src="images\about\MATT2.png"
                         alt="vivid 2"
                         />
-                        <Carousel.Caption className='text-team  w-75'>
-                        <h3 >Matt Aylife</h3>
-                        <h4>CREATIVE DIRECTOR</h4>
-                        <p>20 YEARS OF DEVELOPING HIGH QUALITY &amp; CREATIVE SOLUTIONS COMBINED WITH FAIR PRICING.</p>
-                        </Carousel.Caption>
+                    <div className='text-team w-75 mt-3 px-2 me-5'>
+                                <h4 className='name'>Matt Aylife</h4>
+                                <h5 className='position  mb-0'>CREATIVE DIRECTOR</h5>
+                                <p className='description mb-0 '>20 YEARS OF DEVELOPING HIGH QUALITY &amp; CREATIVE SOLUTIONS COMBINED WITH FAIR PRICING.</p>
+                    </div>
+
                     </div>
                     </Carousel.Item>
 
                     <Carousel.Item>
-                    <div className=" d-block w-60 ">
+                    <div className=" d-flex  ps-2 w-100  ">
                         <img
-                        className=" d-block x w-50"
+                        className="image d-flex w-50"
                         src="images\about\Tony.png"
                         alt="vivid 2"
                         />
-                        <Carousel.Caption className='text-team  w-75'>
-                        <h3 >Anthony Shone</h3>
-                        <h4>PRODUCTION MANAGER</h4>
-                        <p>EXTENSIVE BUILD &amp; MANUFACTURING EXPERIENCE WITH STATE-OF-THE-ART EQUIPMENT AND A PRODUCTION TEAM THAT EXCELS.</p>
-                        </Carousel.Caption>
+                    <div className='text-team w-75 mt-3 px-2 me-5'>
+                                <h4 className='name'>Anthony Shone</h4>
+                                <h5 className='position  mb-0'>PRODUCTION MANAGER</h5>
+                                <p className='description mb-0 '>EXTENSIVE BUILD &amp; MANUFACTURING EXPERIENCE WITH STATE-OF-THE-ART EQUIPMENT AND A PRODUCTION TEAM THAT EXCELS.</p>
+                    </div>
                     </div>
                     </Carousel.Item>
                 </Carousel>

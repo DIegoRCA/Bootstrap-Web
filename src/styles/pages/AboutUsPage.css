@@ -50,6 +50,7 @@ section{
 span{
     font-weight: bold;
 }
+
 .team{
     display: flexbox;
     flex-flow: row wrap;
@@ -178,26 +179,40 @@ color: black;
 
 @media (max-width:996px){
 
-    .cuadrado{
-        display:flex;
-        flex-flow: column;
-        text-align: center;
-    }
-    .cuadrado>h2{
-        justify-content: center;
-    }
+.cuadrado{
+    display:flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+.cuadrado>h2{
+    justify-content: center;
+}
+
+section{
+    margin: 1rem ;
+    background-color: rgb(224, 221, 221);
+    text-align: center;
+    padding: 2%;
+}
+
+
+section>span{
+    font-weight: bold;
+}
+
+
+    
 .image{
-    height: 70%;
+    height: 144.34px;
     max-width: auto;
 }
 .text-team{
-margin-right: 2rem;
-margin-top: 1rem;
 text-align: center;
 }
 .name{
     font-size: 0.8rem;
-    text-align: center;
+    
     border: 1px solid black;
 }
 .position{
