@@ -1,0 +1,56 @@
+.container-services{
+    max-width: 970px;
+    max-height: auto;
+    margin-top: 1em;
+    margin-bottom: 6em;
+}
+
+.foto-services{
+    display:flex;
+    flex-flow: row wrap;
+    width:100%;
+    height: 350px;
+}
+
+.imagen>img{
+    width: 485px;
+    height: 350px;
+}
+
+.centrado1{
+    width: 485px;
+    height:auto;
+    text-align: center;
+    padding: 10%;
+    font-family: 'Raleway', sans-serif !important;
+    text-transform: uppercase;
+
+}
+
+.centrado1>p{
+    font-weight: 300;
+    font-size: 14px;
+    color: #616161;
+   
+}
+.centrado1>h3{
+    font-weight: 500;
+    font-size: 25px;
+    color: #00a997;
+   
+}
+
+.button{
+    border-radius:unset;
+    border-color:#00a997;
+    background-color:white;
+    border-style: hidden double;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
+
+.button:hover {
+    background-color: white
+}

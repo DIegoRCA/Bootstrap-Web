@@ -1,0 +1,30 @@
+
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #000000;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position:sticky
+  }
+    
+
+     
+
+
+.footer>p{
+    text-decoration: none;
+    color:white;
+    margin-top: auto;
+    text-align:center;
+    
+}
+
+.footer>p>span{
+    color:white;
+}
+
+.footer>p>a{
+    color:#00a997;
+}
