@@ -51,96 +51,26 @@ span{
     font-weight: bold;
 }
 
-.team{
-    display: flexbox;
-    flex-flow: row wrap;
-    background-color: white;
-    padding-left:15%;
-    padding-left: 50px;
-
-
-
-
-}
-.people{
-    display:inline-block;
-    width:20%;
-
-    margin-left:25px;
- 
-
-
-}
-.people>img{
-    max-width: 80%;
-    padding-left: 13.5%;
-    
-}
 .name{
-
+border: 2px solid black;
+text-align: center;
+padding: 0.5rem;
+font-family:'Open Sans', sans-serif;
 }
 .position{
-
+text-align: center;
+font-weight: 800;
+font-family:'Open Sans', sans-serif;
+font-size: 1.5rem;
 }
 
 .description{
     font-family:'Open Sans', sans-serif;
-    font-size: 0.7rem;
-}
-
-
-
-.text{
-    padding: 0;
-    font-family: 'Raleway', sans-serif;
-    line-height: 100%;
-text-align: center;
-color: black;
-   
+    text-align: center;
 
 }
-.text>h6{
-    display: inline-flex;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 10px;
-    letter-spacing: 3px;
-    /* line-height: 20px; */
-    text-transform: uppercase;
-    border: solid 1px black ;
-    padding:6px;
-    color:black; 
-}
 
-.text>p{
-    
-    display: inline-flex;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    font-size: 10px;
-    letter-spacing: 3px;
-    line-height: 140%;
-    text-transform: uppercase;
-    padding:6px;
-    text-align:start;
-    color:black;
-}
 
-.team-carousel{
-    display: flexbox;
-    flex-flow: column wrap;
-    background-color: white;
-}
-
-.size-carousel{
-    display:flex;
-    width: 970px;
-    height:400px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    background-color:rgb(255, 255, 255);
-    
-}
 .text-team{
     font-family: 'Open Sans', sans-serif;
     display:inline-block;
@@ -148,34 +78,8 @@ color: black;
   /*   padding-left: 350px; */
     text-transform: uppercase;
     }
-/* .text-team>h4{
 
-        font-family:'Open Sans', sans-serif;
-        font-weight: 400;
-        font-size: 14px;
-        letter-spacing: 3px;
-        line-height: 20px;
-        text-transform: uppercase;
-        border: solid 1px black;
-        padding: 6px;
 
-}
-.text-team>p{
- 
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 300;
-        font-size: 12px;
-        line-height: 24px;
-        color: #4c4c4c;
-        text-transform: uppercase;
-}
- */
-.carousel-indicators {
-    display: none;
-}
-.textP{
-    font-size: 0.5em;
-        }
 
 @media (max-width:996px){
 
@@ -221,6 +125,7 @@ text-align: center;
 .description{
     font-size: 0.5rem;
 }
-
-
+.carousel .carousel-indicators{
+    display:none;
+}
 }

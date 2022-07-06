@@ -18,7 +18,8 @@ const AboutUsPage = (props)=>{
 </section>           
 
 <div className="team-carousel">
-                <Carousel className="carousel-dark slide " data-bs-ride="carousel" interval={100000000}>
+                <Carousel className="carousel slide" data-bs-ride="carousel" interval={1000000000}>
+
                     <Carousel.Item>
                     <div className=" d-flex w-100  px-2">
                       <img
