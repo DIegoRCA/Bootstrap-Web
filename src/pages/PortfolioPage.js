@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../src/styles/pages/PortfolioPage.css';
+import '../styles/pages/PortfolioPage.css';
 import { Carousel } from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function PortfolioPage(props) {
@@ -13,16 +13,21 @@ function PortfolioPage(props) {
             </div>
 
 {/******************************************* VIVID *****************************************/}
-            <div className="container1">
-                <Carousel className='size segundo'>
+            <div className="container1 d-lg-flex col-lg-12">
+                <Carousel className='d-block col-lg-6'>
                     <Carousel.Item interval={10000000}>
-                        <div className="d-block w-100"/>
-                        <Carousel.Caption className='text1'>
-                        <h3 >SAMSUNG ELECTRIC PLAYGROUND AT VIVID</h3>
-                        <p>In this complex brief, the Alchemy team were required to offer a 360-degree solution, as an inclusion to Samsung’s Vivid 2019 activation & sponsorship.</p>
-                        </Carousel.Caption>
-
+                    <img
+                        className="img-fluid"
+                        src="images\portfolio\vivid2.jpg"
+                        alt="vivid 2"
+                    />
+                            <Carousel.Caption className='text1'>
+                                <h3 >SAMSUNG ELECTRIC PLAYGROUND AT VIVID</h3>
+                                <p>In this complex brief, the Alchemy team were required to offer a 360-degree solution, as an inclusion to Samsung’s Vivid 2019 activation & sponsorship.</p>
+                            </Carousel.Caption>
+                        
                     </Carousel.Item>
+                    
                     <Carousel.Item interval={500}>
                         <img
                         className="d-block w-100"
@@ -53,9 +58,13 @@ function PortfolioPage(props) {
                     </Carousel.Item>
                 </Carousel>
 {/******************************************* HENDRICKS *****************************************/}
-                <Carousel className='size'>
+                <Carousel className="d-block col-lg-6">
                     <Carousel.Item interval={10000000}>
-                        <div className="d-block w-100"/>
+                    <img
+                        className="d-block w-100"
+                        src="images\portfolio\hendricks02.jpg"
+                        alt="Second slide"
+                        />
                         <Carousel.Caption className='text1'>
                         <h3>HENDRICK GIN ACTIVATION</h3>
                         <p>When Hendrick Gin's agency Yakusan wanted to deliver a unique consumer experience at one of Sydney's premier site's “Circular Key” it allowed our team to use all elements of Alchemy’s services combining CNC routing, digital printing, Paint Dept, Styling and traditional carpentry.</p>

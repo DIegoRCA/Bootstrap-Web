@@ -14,16 +14,18 @@ return (
 <Router>
   
 <NavigationBar></NavigationBar>
+
 <Routes>
   <Route exact path="/" element={<Home/>}></Route>
   <Route path="/about" element={<About/>}></Route>
-  <Route exact path="/contact" element={<Contact/>}></Route>
+  <Route path="/contact" element={<Contact/>}></Route>
   <Route path="/novedades" element={<Novedades/>}></Route>
-  <Route exact path="/portfolio" element={<Portfolio/>}></Route>
+  <Route path="/portfolio" element={<Portfolio/>}></Route>
   <Route path="/services" element={<Services/>}></Route>
-
 </Routes>
+
 <Footer></Footer>
+
 </Router>
 </div>
 );

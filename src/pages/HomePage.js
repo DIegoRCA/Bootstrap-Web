@@ -5,7 +5,7 @@ import '../styles/pages/HomePage.css';
 
 const HomePage = (props)=>{
     return (
-        <Container className='Cont d-block w-100'>
+        <Container className='holder d-block'>
             <Row  className='d-flex'>
                 <video className='w-100' controls  autoPlay>
                 <source className='w-100' src="/1286756359.mp4" type="video/mp4"/>
