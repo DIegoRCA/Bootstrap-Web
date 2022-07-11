@@ -4,7 +4,10 @@
     --light: #ffffff;
     --grey: #f5f5f5;
 }
-
+.navbar{
+    position: sticky;
+    top:0;
+}
 .logoText{
     
     padding-right:0px;

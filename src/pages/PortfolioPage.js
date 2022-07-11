@@ -13,15 +13,15 @@ function PortfolioPage(props) {
             </div>
 
 {/******************************************* VIVID *****************************************/}
-            <div className="container1 d-lg-flex col-lg-12">
+            <div className="container1 d-flex col-lg-12">
                 <Carousel className='d-block col-lg-6'>
                     <Carousel.Item interval={10000000}>
                     <img
-                        className="img-fluid"
+                        className="img d-block w-100"
                         src="images\portfolio\vivid2.jpg"
                         alt="vivid 2"
                     />
-                            <Carousel.Caption className='text1'>
+                            <Carousel.Caption className='containerText'>
                                 <h3 >SAMSUNG ELECTRIC PLAYGROUND AT VIVID</h3>
                                 <p>In this complex brief, the Alchemy team were required to offer a 360-degree solution, as an inclusion to Samsung’s Vivid 2019 activation & sponsorship.</p>
                             </Carousel.Caption>
@@ -61,15 +61,18 @@ function PortfolioPage(props) {
                 <Carousel className="d-block col-lg-6">
                     <Carousel.Item interval={10000000}>
                     <img
-                        className="d-block w-100"
+                        className="img d-block w-100"
                         src="images\portfolio\hendricks02.jpg"
                         alt="Second slide"
-                        />
-                        <Carousel.Caption className='text1'>
+                    />
+                    
+                    
+                    <Carousel.Caption className='containerText w-75'>
                         <h3>HENDRICK GIN ACTIVATION</h3>
                         <p>When Hendrick Gin's agency Yakusan wanted to deliver a unique consumer experience at one of Sydney's premier site's “Circular Key” it allowed our team to use all elements of Alchemy’s services combining CNC routing, digital printing, Paint Dept, Styling and traditional carpentry.</p>
-                        </Carousel.Caption>
+                    </Carousel.Caption>
                     </Carousel.Item>
+                    
                     <Carousel.Item interval={500}>
                         <img
                         className="d-block w-100"

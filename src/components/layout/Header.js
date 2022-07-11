@@ -5,9 +5,9 @@ import '../../styles/layout/Header.css';
 
 function NavigationBar() {
 return (
-<Navbar  expand="lg" variant="dark" sticky='top'className="navbar d-flex position-absolute bg-dark w-100">
+<Navbar  expand="lg" variant="dark" sticky='top' className="d-flex bg-dark w-100">
   
-<Container className="justify-content-center ">
+<Container className=" navbar justify-content-center ">
  
 <Row  className=" justify-content-center w-100">
   <Col className="justify-content-center ">
