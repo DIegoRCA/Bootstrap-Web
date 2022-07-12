@@ -10,18 +10,18 @@ const ServicesPage = (props)=>{
 <main className='holder'>
 
     <div className='cuadrado'>
-<h2>Services</h2>
-        <p>As a company we are after every part of the procces, in this way your journey with us is a piece of mind.</p>
+      <h2>Services</h2>
+      <p>As a company we are after every part of the procces, in this way your journey with us is a piece of mind.</p>
     </div>
         
-    <div className='d-block w-100 col-12'>
+    <div id="large " className='container-services'>
 
-        <div className='d-block w-100 '>
-          <div className='d-block w-50 col-6'>
+        <div className='foto-services'>
+          <div className='imagen'>
                 <img src="./images/services/consultation.jpg" alt="img01"/>
           </div>
 
-          <div className="d-block w-100">
+          <div className="centrado1">
            
                 <h3>CONSULTATION &amp; DESIGN</h3>
                 <p>We act as translators, turning your great ideas into realities.</p>
@@ -137,6 +137,7 @@ const ServicesPage = (props)=>{
 
 
             </div>
+
             <div className='imagen'>
               <img src="./images/services/printing.jpg" alt="img04"/>
             </div>
@@ -171,6 +172,74 @@ const ServicesPage = (props)=>{
             </div>
         </div>
 
+    </div>
+
+    <div className="small container d-flex align-items-center justify-content-center flex-wrap">
+        <div className="box">
+            <div className="body">
+                <div className="imgContainer">
+                    <img src="./images/services/consultation.jpg" alt="consultation"/>
+                </div>
+                <div className="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 className="text-white fs-5">CONSULTATION &amp; DESIGN</h3>
+                        <p className="fs-6 text-white">We act as translators, turning your great ideas into realities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="box">
+            <div className="body">
+                <div className="imgContainer">
+                    <img src=".\images\services\tailored.jpg" alt=""/>
+                </div>
+                <div className="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 className="text-white fs-5">TAILORED SOLUTIONS</h3>
+                        <p className="fs-6 text-white">Unique products stimulate the imagination; we make brands stand out.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="box">
+            <div className="body">
+                <div className="imgContainer">
+                    <img src=".\images\services\printing.jpg" alt="Graphics"/>
+                </div>
+                <div className="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 className="text-white fs-5">DIGITAL PRINTING</h3>
+                        <p className="fs-6 text-white">High quality print media in a wide range of formats, turning ideas into realities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="box">
+            <div className="body">
+                <div className="imgContainer">
+                    <img src=".\images\services\logistic.jpg" alt="Graphics"/>
+                </div>
+                <div className="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 className="text-white fs-5">LOGISTIGS</h3>
+                        <p className="fs-6 text-white">Professional event production, installation and management. We build anywhere, anytime.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="box">
+            <div className="body">
+                <div className="imgContainer">
+                    <img src=".\images\services\alchemy go.jpg" alt="alchemy go"/>
+                </div>
+                <div className="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 className="text-white fs-5">ALCHEMY GO</h3>
+                        <p className="fs-6 text-white">Must have add-ons and accessories to deliver immediate solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     </main>
     );

@@ -26,7 +26,7 @@ return (
 <Navbar.Toggle aria-controls="basic-navbar-nav "/>
 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
 
-<Nav className=" ">
+<Nav>
 <LinkContainer to="/">
 <Nav.Link>Home</Nav.Link>
 </LinkContainer>
