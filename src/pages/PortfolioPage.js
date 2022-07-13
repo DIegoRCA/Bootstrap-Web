@@ -13,7 +13,7 @@ function PortfolioPage(props) {
             </div>
 
 {/******************************************* VIVID *****************************************/}
-            <div className="container1 d-flex">
+            <div className="container1 d-flex col-lg-12 w-100">
                 <Carousel variant="dark" className='d-flex col-lg-6'>
                     <Carousel.Item interval={10000000}>
                     <img
