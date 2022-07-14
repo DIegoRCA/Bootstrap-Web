@@ -1,13 +1,12 @@
-
+:root{
+    --primary:#3e3a44;
+}
 .columns{
-    display: flex;
     column-count: 2;
-    padding: 2em 2em;
+    padding: 2rem;
     font-family: 'Raleway', sans-serif !important;
     font-size: 14px;
     line-height: 24px;
-
- 
  }
  
 
@@ -60,15 +59,15 @@
     
     .rightColumn{
         padding-left:0;
-        color:black;
+        padding-top: 0px;
+        color:white;
+    }
+    .columns .mail{
+        color:white;
     }
     .columns{
-        
+        background-color: var(--primary)  !important;
         column-count:1;
-        font-family: 'Raleway', sans-serif !important;
-        font-size: 14px;
-        line-height: 40px;
         text-align: center;
-        border: 1px solid red;
     }
  }

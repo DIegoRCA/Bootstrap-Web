@@ -18,7 +18,7 @@ const AboutUsPage = (props)=>{
 </section>           
 <div className="carouselContainer mb-2 p-2">
 <div className="team-carousel">
-                <Carousel className="carousel-light slide" data-bs-ride="carousel" interval={3500}>
+                <Carousel className="carousel-light slide" data-bs-ride="carousel" interval={1500}>
 
                     <Carousel.Item>
                     <div className="d-sm-block d-lg-flex">

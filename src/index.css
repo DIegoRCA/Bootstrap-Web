@@ -1,5 +1,4 @@
 body {
-  
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -11,6 +10,7 @@ body {
   .cuadrado{
     display:flex;
     column-count: 2;
+    width: 970px;
     column-gap:1em;
     font-family: 'Open Sans',sans-serif!important;
     color: black;
