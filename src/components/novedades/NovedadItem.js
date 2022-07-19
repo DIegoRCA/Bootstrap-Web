@@ -7,14 +7,14 @@ const NovedadItem = (props)=>{
     const { title, subtitle, imagen, body} = props;
 
     return(
-        <Row xs={1} md={2} className="d-flex g-4">
-        {Array.from({ length: 4 }).map((_, idx) => (
+        <Row  className="d-flex">
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
-            <Card className="d-flex w-100">
-              <Card.Img variant="top" src={imagen} />
+            <Card className="d-flex my-2 w-100">
+              <Card.Img variant="top"  src={imagen} className="pt-4" />
               <Card.Body>
-                <Card.Title></Card.Title>
-                <Card.Subtitle>{subtitle}</Card.Subtitle>
+                <Card.Title>{title}</Card.Title>
+                <Card.Subtitle className='my-2 text-secondary'>{subtitle}</Card.Subtitle>
                 <Card.Text  dangerouslySetInnerHTML={{ __html: body}} >
 
                 </Card.Text>

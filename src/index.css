@@ -1,3 +1,6 @@
+:root{
+  --primary:#3e3a44;
+}
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -9,8 +12,9 @@ body {
 
   .cuadrado{
     display:flex;
+    flex-wrap: wrap;
     column-count: 2;
-    width: 970px;
+    max-width: 970px;
     column-gap:1em;
     font-family: 'Open Sans',sans-serif!important;
     color: black;
@@ -41,14 +45,5 @@ padding: 0.6em 1em 0 1em;
 @media (max-width:996px){
   .holder{
       width: auto;
-  }
-  .cuadrado{
-      display:flex;
-      flex-flow: column;
-      text-align: center;
-  }
-  
-  .cuadrado>h2{
-      justify-content: center;
   }
 }

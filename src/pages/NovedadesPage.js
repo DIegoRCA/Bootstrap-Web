@@ -25,10 +25,9 @@ function NovedadesPage(props) {
         <main className="holder">
             <div className="cuadrado">
                 <h2>News</h2>
-                <p>All the information that excite us!</p>
+                <p>All the information that excite us.<br></br> And surprise you!</p>
             </div>
             <section className="holder">
-                <h1>News</h1>
                 {loading ? (
                     <p>Cargando...</p>
                 ) : (
