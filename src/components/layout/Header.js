@@ -13,7 +13,7 @@ return (
   <Col className="justify-content-center ">
 <Navbar.Brand href="/" className="d-block mt-3 mb-0">
 <img
-        src="/logo.png"
+        src=".\images\header\logo.png"
         width="200"
         height="auto"
         className="d-inline-block align-top"

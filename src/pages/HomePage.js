@@ -9,7 +9,7 @@ const HomePage = (props)=>{
             <Row  className='d-flex align-self-center'>
                 <div className='videoBox d-flex w-100'>
                 <video className=' d-flex video mb-5' controls  autoPlay>
-                <source className='w-100' src="/1286756359.mp4" type="video/mp4"/>
+                <source className='w-100' src="images/home/1286756359.mp4" type="video/mp4"/>
                 </video>
                 </div>
             </Row>
