@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container,Row,Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/pages/HomePage.css';
+import '../styles/components/pages/HomePage.css';
 
 const HomePage = (props)=>{
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/pages/PortfolioPage.css';
+import '../styles/components/pages/PortfolioPage.css';
 import { Carousel } from "react-bootstrap";
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, Container,Row,Col } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import '../../styles/layout/Header.css';
+import '../../styles/components/layout/Header.css';
 
 function NavigationBar() {
 return (

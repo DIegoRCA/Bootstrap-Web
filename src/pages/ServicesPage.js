@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../styles/pages/ServicesPage.css';
+import '../styles/components/pages/ServicesPage.css';
 import { OverlayTrigger, Popover, Button } from 'react-bootstrap';
 
 

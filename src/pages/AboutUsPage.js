@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/pages/AboutUsPage.css';
+import '../styles/components/pages/AboutUsPage.css';
 import { Carousel} from "react-bootstrap";
 
 const AboutUsPage = (props)=>{

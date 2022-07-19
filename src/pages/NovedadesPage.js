@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../src/styles/pages/PortfolioPage.css';
+import '../../src/styles/components/pages/PortfolioPage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -29,11 +29,16 @@ function NovedadesPage(props) {
             </div>
             <section className="holder">
                 {loading ? (
-                    <p>Cargando...</p>
+                    <p>Loading...</p>
                 ) : (
-                    novedades.map(item => <NovedadItem key={item.id}
-                        title={item.titulo} subtitle={item.subtitulo}
-                        imagen={item.imagen} body={item.cuerpo}/>)
+                    novedades.map(item => 
+                    <NovedadItem 
+                        key={item.id} 
+                        title={item.titulo} 
+                        subtitle={item.subtitulo}
+                        imagen={item.imagen} 
+                        body={item.cuerpo}
+                    />)
                 )
                 }
             </section>
