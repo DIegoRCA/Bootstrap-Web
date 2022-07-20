@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../src/styles/components/pages/PortfolioPage.css';
+import '../styles/components/pages/PortfolioPage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
