@@ -2,10 +2,42 @@ import React from 'react';
 import '../styles/components/pages/ContactPage.css';
 
 const ContactPage = (props)=>{
+
+    const initialForm = {
+        nombre:'',
+        email:'',
+        telefono:'',
+        mensaje:''
+    }
+
+    const [sending, setSending] = useState(false);
+    const [msg, setMsg] = useState('');
+    const [formData, setFormData] = useState(initialForm);
+
+    const handleChange = e => {
+        const {name, value} = e.target;
+        setFormData(oldData => ({
+            ...oldData,
+            [name]: value
+        }));
+    }
+
+    const handleSubmit = async e => {
+        e.preventDefault();
+        setMsg('');
+        setSending(true)
+        const response = await axios.post(`${process.env.REACT_APP_API_URL}/api/contacto`, formData);
+        setSending(false);
+        setMsg(response.data.message);
+        if (response.data.error === false){
+            setFormData(initialForm)
+        }
+    }
+
     return(
         <main className="holder">
             <div className="d-flex w-100" >
-                <form action="" method="" className="form d-flex w-100" >
+                <form action="/contacto" method="post" className="form d-flex w-100" onSubmit={handleSubmit} >
                         <input className="input" type="email" placeholder="YOUR EMAIL ADDRESS"/>
             
                         <input className="input" type="text" placeholder="YOUR NAME"/>
