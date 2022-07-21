@@ -1,3 +1,4 @@
+import React from 'react';
 import Contact from './pages/ContactPage';
 import About from './pages/AboutUsPage';
 import Home from './pages/HomePage';
