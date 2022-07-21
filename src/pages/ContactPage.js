@@ -39,7 +39,8 @@ const ContactPage = (props)=>{
 
             <main className="holder">
                 <div className="d-flex w-100" >
-                    <form action="/contacto" method="post" className="form" onSubmit={handleSubmit}>
+                    
+                    <form action="/contacto" method="post" className="form d-flex w-100" onSubmit={handleSubmit}>
                     
                         <input className="input" type="text" name="email" placeholder="YOUR EMAIL ADDRESS" 
                         value={formData.email} onChange={handleChange}/>
