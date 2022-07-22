@@ -28,28 +28,28 @@ function PortfolioPage(props) {
                         
                     </Carousel.Item>
                     
-                    <Carousel.Item interval={500}>
+                    <Carousel.Item interval={1500}>
                         <img
                         className="img d-block  w-100"                   
                         src="images\portfolio\vivid2.jpg"
                         alt="vivid 2"
                         />
                     </Carousel.Item>
-                    <Carousel.Item interval={500}>
+                    <Carousel.Item interval={1500}>
                         <img
                         className="img d-block w-100"
                         src="images\portfolio\vivid1.jpg"
                         alt="vivid 2"
                         />
                     </Carousel.Item>
-                    <Carousel.Item interval={500}>
+                    <Carousel.Item interval={1500}>
                         <img
                         className="img d-block w-100"
                         src="images\portfolio\vivid3.jpeg"
                         alt="Third slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item interval={500}>
+                    <Carousel.Item interval={1500}>
                         <img
                         className="img d-block w-100"
                         src="images\portfolio\vivid4.jpeg"
@@ -72,28 +72,28 @@ function PortfolioPage(props) {
                         </Carousel.Caption>
                     </Carousel.Item>
                     
-                    <Carousel.Item interval={500}>
+                    <Carousel.Item interval={1500}>
                         <img
                         className="img d-block w-100"
                         src="images\portfolio\hendricks02.jpg"
                         alt="Second slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item  interval={500}>
+                    <Carousel.Item  interval={1500}>
                         <img
                         className="img d-block w-100"
                         src="images\portfolio\hendricks03.jpg"
                         alt="Third slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item  interval={500}>
+                    <Carousel.Item  interval={1500}>
                         <img
                         className="img d-block w-100"
                         src="images\portfolio\hendricks04.jpg"
                         alt="Third slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item  interval={500}> 
+                    <Carousel.Item  interval={1500}> 
                         <img
                         className="img d-block w-100"
                         src="images\portfolio\hendricks06.jpg"
@@ -116,28 +116,28 @@ function PortfolioPage(props) {
                            </p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={500}>
+                    <Carousel.Item interval={1500}>
                         <img
                         className="img d-block w-100"
                         src="images\portfolio\conejo1.jpg"
                         alt="Second slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item  interval={500}>
+                    <Carousel.Item  interval={1500}>
                         <img
                         className="img d-block w-100"
                         src="images\portfolio\conejo2.jpg"
                         alt="Third slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item interval={500}>
+                    <Carousel.Item interval={1500}>
                         <img
                         className="img d-block w-100"
                         src="images\portfolio\conejo3.jpg"
                         alt="Second slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item  interval={500}>
+                    <Carousel.Item  interval={1500}>
                         <img
                         className="img d-block w-100"
                         src="images\portfolio\conejo4.jpg"
@@ -160,28 +160,28 @@ function PortfolioPage(props) {
                             stom plinths played an important role to display usable services on devices being showcased.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={500}>
+                    <Carousel.Item interval={1500}>
                         <img
                         className="img d-block w-100"
                         src="images\portfolio\youtube02.jpg"
                         alt="Second slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item interval={500}>
+                    <Carousel.Item interval={1500}>
                         <img
                         className="img d-block w-100"
                         src="images\portfolio\youtube03.jpg"
                         alt="Third slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item interval={500}>
+                    <Carousel.Item interval={1500}>
                         <img
                         className="img d-block w-100"
                         src="images\portfolio\youtube01.jpg"
                         alt="Third slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item interval={500}>
+                    <Carousel.Item interval={1500}>
                         <img
                         className="img d-block w-100"
                         src="images\portfolio\youtube05.jpg"
