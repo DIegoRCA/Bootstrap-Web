@@ -12,11 +12,11 @@ const HomePage = (props)=>{
                 url='images/home/1286756359.mp4'
                 width='100'
                 height='100'
-                playsInline={true}
-                controls={true}
-                loop={true}
-                playing={true}
-                autoPlay={true}
+                playsInline
+                controls
+                loop
+                playing
+                autoPlay
                 />
 {/*                 <video className=' d-flex video mb-5' controls loop autoplay>
                 <source className='w-100' src="images/home/1286756359.mp4" type="video/mp4"/>
