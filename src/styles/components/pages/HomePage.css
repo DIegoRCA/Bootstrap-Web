@@ -1,7 +1,7 @@
 .video{
     margin-top: 5px;
     max-width: 970px;
-    height: auto;
+    max-height: auto;
     transition: 1.5s opacity;
 }
 .videoBox{

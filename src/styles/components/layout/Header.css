@@ -30,5 +30,9 @@
     position:relative !important;
     width: 100%;
     }
+    .toggle{
+        text-align: end;
+        padding-right: 0.8rem;
+    }
 
 }

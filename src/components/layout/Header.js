@@ -7,9 +7,9 @@ function NavigationBar() {
 return (
 <Navbar  expand="lg" variant="dark" sticky='top' className="d-flex bg-dark w-100">
   
-<Container className=" navbar justify-content-center ">
+<Container className=" navbar justify-content-center w-100 ">
  
-<Row  className=" justify-content-center w-100">
+<Row  className="pl-2 w-100">
   <Col className="justify-content-center ">
 <Navbar.Brand href="/" className="d-block mt-3 mb-0">
 <img
@@ -22,9 +22,9 @@ return (
  <p className='logoText'>You imagine it, We create it</p>
  </Navbar.Brand>
 </Col>
-<Col className="align-self-center">
-<Navbar.Toggle aria-controls="basic-navbar-nav "/>
-<Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
+<Col className="toggle align-self-center">
+<Navbar.Toggle aria-controls="basic-navbar-nav"/>
+<Navbar.Collapse id="basic-navbar-nav">
 
 <Nav>
 <LinkContainer to="/">

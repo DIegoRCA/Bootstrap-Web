@@ -66,7 +66,7 @@ const ContactPage = (props)=>{
                 <div className="columns  d-block w-100">
                             <div className="rightColumn d-block  w-100">
                                 <ul>
-                                        <li>(02) 9550  1321</li>
+                                        <li>(02) 9999  1321</li>
                                         <li>Monday to Friyday:<br></br>8am - 4pm</li>
                                         <li>Saturday &amp; Sunday: Closed</li>
                                 </ul>
@@ -74,10 +74,10 @@ const ContactPage = (props)=>{
                                 <div className="rightColumn d-block  w-100">
 
                                     <ul>
-                                        <li>13-15/61-71 Beauchamp Rd</li>
+                                        <li>177/43 Beauchamper Rd</li>
                                         <li>Matraville</li>
                                         <li>NSW </li>
-                                        <li><a className="mail"href="mailto:info@alchemyco.com.au?Subject=Please%20contact%20me">info@alchemyco.com.au</a></li>
+                                        <li><a className="mail"href="mailto:diegocartelle@gmail.com?Subject=Please%20contact%20me">info@greatalchemy.com.au</a></li>
                                     </ul>
                                 </div>
                             </div>
