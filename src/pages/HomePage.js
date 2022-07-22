@@ -13,9 +13,9 @@ const HomePage = (props)=>{
                 width='100'
                 height='100'
                 controls={true}
-                loop
-                playing
-                autoplay
+                loop={true}
+                playing={true}
+                autoPlay={true}
                 />
 {/*                 <video className=' d-flex video mb-5' controls loop autoplay>
                 <source className='w-100' src="images/home/1286756359.mp4" type="video/mp4"/>
