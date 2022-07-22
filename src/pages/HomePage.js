@@ -2,21 +2,29 @@ import React from 'react';
 import {Container,Row,Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/components/pages/HomePage.css';
-
+import ReactPlayer from 'react-player'
 const HomePage = (props)=>{
     return (
         <Container className='holder'>
             <Row  className='d-flex align-self-center'>
                 <div className='videoBox d-flex w-100'>
-                <video className=' d-flex video mb-5' controls loop autoPlay>
+                <ReactPlayer  className='video'
+                url='images/home/1286756359.mp4'
+                width={970}
+                height={600}
+                loop
+                playing
+                
+                />
+{/*                 <video className=' d-flex video mb-5' controls loop autoplay>
                 <source className='w-100' src="images/home/1286756359.mp4" type="video/mp4"/>
-                </video>
+                </video> */}
                 </div>
             </Row>
             <Row className="d-flex  m-2 p-2 w-100">
                 
                 <Col className="bigText d-block  text-primary">
-                    <h1 className=''>WHO ARE WE?</h1>
+                    <h1>WHO ARE WE?</h1>
                 </Col>
                 <Col className="smallText d-block juistify-content-center  lead ">
                     <p className="pt-2 "> We are a creative community of designers and craftsmen that focuses on quality.
@@ -35,7 +43,7 @@ const HomePage = (props)=>{
               
             </Row>
         </Container>
-  
+
     );
 }
 

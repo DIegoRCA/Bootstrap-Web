@@ -1,10 +1,12 @@
+
 .video{
     margin-top: 5px;
     max-width: 970px;
-    max-height: auto;
-    transition: 1.5s opacity;
+    height: auto;
 }
 .videoBox{
+    width: 970px;
+    height: auto;
     justify-content: center;
 }
 
@@ -39,10 +41,8 @@
         width: auto;
     }
     .video{
-        display:flex;
-        width: 100%;
-        margin: auto;
-        margin-top: 5px;
+        margin-top:-12rem;
+        margin-bottom: -13rem;
     }
 
     .smallText{
@@ -61,6 +61,7 @@
         margin-left: 0px;
         
     }
+    
 }
 
 
