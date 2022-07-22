@@ -12,7 +12,7 @@ const HomePage = (props)=>{
                 url='images/home/1286756359.mp4'
                 width='100'
                 height='100'
-                playsinline={true}
+                playsInline={true}
                 controls={true}
                 loop={true}
                 playing={true}
