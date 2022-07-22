@@ -6,17 +6,16 @@ import ReactPlayer from 'react-player'
 const HomePage = (props)=>{
     return (
         <Container className='holder'>
-            <Row  className='d-flex align-self-center'>
+            <Row className='d-flex align-self-center'>
                 <div className='videoBox d-flex w-100'>
-                <ReactPlayer  className='video'
+                <ReactPlayer className='video'
                 url='images/home/1286756359.mp4'
                 width='100'
                 height='100'
                 playsInline
-                controls
+                
                 loop
                 playing
-                autoPlay
                 />
 {/*                 <video className=' d-flex video mb-5' controls loop autoplay>
                 <source className='w-100' src="images/home/1286756359.mp4" type="video/mp4"/>
