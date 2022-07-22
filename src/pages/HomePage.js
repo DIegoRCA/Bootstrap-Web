@@ -10,11 +10,12 @@ const HomePage = (props)=>{
                 <div className='videoBox d-flex w-100'>
                 <ReactPlayer  className='video'
                 url='images/home/1286756359.mp4'
-                width={970}
-                height={600}
+                width='100'
+                height='100'
+                controls={true}
                 loop
                 playing
-                
+                autoplay
                 />
 {/*                 <video className=' d-flex video mb-5' controls loop autoplay>
                 <source className='w-100' src="images/home/1286756359.mp4" type="video/mp4"/>

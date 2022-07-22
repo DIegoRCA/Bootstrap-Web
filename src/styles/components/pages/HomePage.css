@@ -1,4 +1,6 @@
-
+ReactPlayer{
+width: 0;
+}
 .video{
     margin-top: 5px;
     max-width: 970px;
@@ -40,10 +42,7 @@
     .holder{
         width: auto;
     }
-    .video{
-        margin-top:-12rem;
-        margin-bottom: -13rem;
-    }
+
 
     .smallText{
         text-align: center;

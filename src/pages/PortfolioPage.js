@@ -14,7 +14,7 @@ function PortfolioPage(props) {
 
 {/******************************************* VIVID *****************************************/}
             <div className="container1 d-flex col-lg-12 w-100">
-                <Carousel variant="dark" className='d-flex col-lg-6'>
+                <Carousel variant="dark" className='d-flex col-lg-6  col-md-6'>
                     <Carousel.Item interval={10000000}>
                     <img
                         className="img img1 d-block w-100"
@@ -58,7 +58,7 @@ function PortfolioPage(props) {
                     </Carousel.Item>
                 </Carousel>
 {/******************************************* HENDRICKS *****************************************/}
-                <Carousel className="carousel-dark d-flex col-lg-6">
+                <Carousel className="carousel-dark d-flex col-lg-6 col-md-6">
                     <Carousel.Item interval={10000000}>
                         <img
                             className="img img1 d-block w-100"
@@ -102,7 +102,7 @@ function PortfolioPage(props) {
                     </Carousel.Item>
                 </Carousel>
 {/*******************************************CONEJO*****************************************/}                
-                <Carousel className="carousel-dark d-block col-lg-6">
+                <Carousel className="carousel-dark d-block col-lg-6 col-md-6">
                     <Carousel.Item interval={10000000}>
                     <img
                         className="img img1 d-block w-100"
@@ -147,7 +147,7 @@ function PortfolioPage(props) {
                     </Carousel>
 {/******************************************* YOUTUBE *****************************************/}
              
-                    <Carousel className="carousel-dark d-block col-lg-6">
+                    <Carousel className="carousel-dark d-block col-lg-6 col-md-6">
                     <Carousel.Item interval={10000000}>
                     <img
                         className="img img1 d-block w-100"
