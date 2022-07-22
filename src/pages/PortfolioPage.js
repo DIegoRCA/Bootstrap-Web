@@ -45,14 +45,14 @@ function PortfolioPage(props) {
                     <Carousel.Item interval={1500}>
                         <img
                         className="img d-block w-100"
-                        src="images\portfolio\vivid3.jpeg"
+                        src="images\portfolio\vivid3.jpg"
                         alt="Third slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item interval={1500}>
                         <img
                         className="img d-block w-100"
-                        src="images\portfolio\vivid4.jpeg"
+                        src="images\portfolio\vivid4.jpg"
                         alt="Third slide"
                         />
                     </Carousel.Item>
