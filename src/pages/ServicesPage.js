@@ -18,7 +18,7 @@ const ServicesPage = (props)=>{
 
         <div className='foto-services'>
           <div className='imagen'>
-                <img src="./images/services/consultation.jpg" alt="img01"/>
+                <img src="./images/services/consultation.png" alt="img01"/>
           </div>
 
           <div className="centrado1">
@@ -78,13 +78,13 @@ const ServicesPage = (props)=>{
                 </>  
             </div>
             <div className='imagen'>
-            <img src="./images/services/tailored.jpg" alt="img02"/>
+            <img src="./images/services/tailored1.jpg" alt="img02"/>
             </div>
         </div>
         
         <div className='foto-services'>
             <div className='imagen'>
-              <img src="./images/services/alchemy go.jpg" alt="img03"/>
+              <img src="./images/services/alchemy-go.png" alt="img03"/>
             </div>
             <div className="centrado1">
                 <h3>ALCHEMY GO</h3>
@@ -178,7 +178,7 @@ const ServicesPage = (props)=>{
         <div className="box">
             <div className="body">
                 <div className="imgContainer">
-                    <img src="./images/services/consultation.jpg" alt="consultation"/>
+                    <img src="./images/services/consultation.png" alt="consultation"/>
                 </div>
                 <div className="content d-flex flex-column align-items-center justify-content-center">
                     <div>
@@ -191,7 +191,7 @@ const ServicesPage = (props)=>{
         <div className="box">
             <div className="body">
                 <div className="imgContainer">
-                    <img src=".\images\services\tailored.jpg" alt=""/>
+                    <img src=".\images\services\tailored1.jpg" alt=""/>
                 </div>
                 <div className="content d-flex flex-column align-items-center justify-content-center">
                     <div>
@@ -230,7 +230,7 @@ const ServicesPage = (props)=>{
         <div className="box">
             <div className="body">
                 <div className="imgContainer">
-                    <img src=".\images\services\alchemy go.jpg" alt="alchemy go"/>
+                    <img src=".\images\services\alchemy-go.png" alt="alchemy go"/>
                 </div>
                 <div className="content d-flex flex-column align-items-center justify-content-center">
                     <div>
