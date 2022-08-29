@@ -47,7 +47,7 @@ const ServicesPage = (props)=>{
                       <Button className="button" variant="light">Read More</Button>
                     </OverlayTrigger>
                   ))}
-                </>            
+                </>
           </div>
         </div> 
 
