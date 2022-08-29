@@ -2,23 +2,27 @@ import React from 'react';
 import {Container,Row,Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/components/pages/HomePage.css';
-import ReactPlayer from 'react-player'
+
+/* import ReactPlayer from 'react-player' */
 const HomePage = (props)=>{
     return (
         <Container className='holder'>
             <Row className='d-flex align-self-center'>
-                <div className='videoBox d-flex w-100'>
+                <img src="../images/home/tigers5.png" alt="tiger"></img>
+{/*                <div className='videoBox d-flex w-100'>
+
                 <ReactPlayer className='video'
-                url='images/home/1286756359.mp4'
+                poster='public\images\home\tigers5.png'
+                url=''
                 width='100'
                 height='100'
                 playing
                 fileConfig={{ attributes: { autoPlay: true }}}
                 />
-{/*                 <video className=' d-flex video mb-5' controls loop autoplay>
+                 <video className=' d-flex video mb-5' controls loop autoplay>
                 <source className='w-100' src="images/home/1286756359.mp4" type="video/mp4"/>
-                </video> */}
-                </div>
+                </video> </div> */}
+               
             </Row>
             <Row className="d-flex  m-2 p-2 w-100">
                 
