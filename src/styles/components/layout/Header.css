@@ -23,12 +23,12 @@
 
 @media (max-width:996px) {
     .brand{
-        position: relative !important;
+        position: fixed !important;
 
     }
     .navbar{
     position:relative !important;
-    width: 100%;
+   
     }
     .toggle{
         text-align: end;

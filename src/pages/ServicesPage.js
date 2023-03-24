@@ -28,7 +28,7 @@ const ServicesPage = (props)=>{
                 <>
                   {['left'].map((placement) => (
                     <OverlayTrigger
-                      trigger="hover, focus"
+                      trigger="hover"
                       key={placement}
                       placement={placement}
                       overlay={
@@ -44,7 +44,7 @@ const ServicesPage = (props)=>{
                         </Popover>
                       }
                     >
-                      <Button className="button" variant="light">Read More</Button>
+                      <Button className="button" variant="">Read More</Button>
                     </OverlayTrigger>
                   ))}
                 </>
@@ -59,7 +59,7 @@ const ServicesPage = (props)=>{
                 <>
                   {['right'].map((placement) => (
                     <OverlayTrigger
-                      trigger="hover, focus"
+                      trigger="hover"
                       key={placement}
                       placement={placement}
                       overlay={
@@ -72,7 +72,7 @@ const ServicesPage = (props)=>{
                         </Popover>
                       }
                     >
-                      <Button className="button" variant="light">Read More</Button>
+                      <Button className="button" variant="">Read More</Button>
                     </OverlayTrigger>
                   ))}
                 </>  
@@ -92,7 +92,7 @@ const ServicesPage = (props)=>{
                 <>
                   {['left'].map((placement) => (
                     <OverlayTrigger
-                      trigger="hover, focus"
+                      trigger="hover"
                       key={placement}
                       placement={placement}
                       overlay={
@@ -104,7 +104,7 @@ const ServicesPage = (props)=>{
                         </Popover>
                       }
                     >
-                      <Button className="button" variant="light">Read More</Button>
+                      <Button className="button" variant="">Read More</Button>
                     </OverlayTrigger>
                   ))}
                 </>             </div>
@@ -118,7 +118,7 @@ const ServicesPage = (props)=>{
                 <>
                   {['right'].map((placement) => (
                     <OverlayTrigger
-                      trigger="hover, focus"
+                      trigger="hover"
                       key={placement}
                       placement={placement}
                       overlay={
@@ -130,7 +130,7 @@ const ServicesPage = (props)=>{
                         </Popover>
                       }
                     >
-                      <Button className="button" variant="light">Read More</Button>
+                      <Button className="button" variant="">Read More</Button>
                     </OverlayTrigger>
                   ))}
                 </>
@@ -153,7 +153,7 @@ const ServicesPage = (props)=>{
                 <>
                   {['left'].map((placement) => (
                     <OverlayTrigger
-                      trigger="hover, focus"
+                      trigger="hover"
                       key={placement}
                       placement={placement}
                       overlay={
@@ -165,7 +165,7 @@ const ServicesPage = (props)=>{
                         </Popover>
                       }
                     >
-                      <Button className="button" variant="light">Read More</Button>
+                      <Button className="button" variant="">Read More</Button>
                     </OverlayTrigger>
                   ))}
                 </>
